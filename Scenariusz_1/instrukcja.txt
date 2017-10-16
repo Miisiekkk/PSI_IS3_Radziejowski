@@ -1,0 +1,17 @@
+Temat ​​ćwiczenia:
+Budowa i działanie perceptronu
+
+1.​​Cel ​​ćwiczenia
+
+Celem ćwiczenia jest poznanie budowy i działanie perceptronu poprzez implementację oraz
+uczenie perceptronu realizującego wybraną funkcję logiczną dwóch zmiennych.
+
+2.​​Zadania​​ do ​​wykonania
+
+a) Implementacja sztucznego neuronu wg algorytmu podanego na wykładzie lub
+dowolnego innego (z podaniem źródła).
+b) Wygenerowanie danych uczących i testujących wybranej funkcji logicznej dwóch
+zmiennych.
+c) Uczenie perceptronu dla różnej liczby danych uczących, różnych współczynników
+uczenia.
+d) Testowanie perceptronu.
