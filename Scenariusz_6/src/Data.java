@@ -27,6 +27,14 @@ public class Data {
         else return 0;
     }
 
+    public double[] getX() {
+        return x;
+    }
+
+    public void setX(double[] x) {
+        this.x = x;
+    }
+
     public String getY() {
         return y;
     }
@@ -35,4 +43,11 @@ public class Data {
         this.y = y;
     }
 
+    public int getxCount() {
+        return xCount;
+    }
+
+    public void setxCount(int xCount) {
+        this.xCount = xCount;
+    }
 }

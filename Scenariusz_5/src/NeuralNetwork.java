@@ -1,6 +1,4 @@
-/**
- * Created by miisiekkk on 2017-12-20.
- */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

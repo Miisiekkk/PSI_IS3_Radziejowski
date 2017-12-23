@@ -1,6 +1,4 @@
-/**
- * Created by miisiekkk on 2017-12-20.
- */
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Neuron {

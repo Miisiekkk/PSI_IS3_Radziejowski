@@ -19,7 +19,7 @@ public class Layer {
     }
 
 
-    public ArrayList<Double> compute(Data input){
+    public ArrayList<Double> computeLayer(Data input){
         ArrayList<Double> results = new ArrayList<>();
         this.data = input;
 
@@ -30,7 +30,11 @@ public class Layer {
         return results;
     }
 
-    public void modify(int id) {
-        neurons[id].modifyWeights(data);
+    public void modify(int id, double alfa, double theta) {
+        neurons[id].modifyWeights(data, alfa, theta);
+    }
+
+    public int getNeuronCount() {
+        return neuronCount;
     }
 }
